@@ -1,0 +1,43 @@
+
+/* -----------------Author Header--------------- */
+
+.header {
+    background-color: #1148D3;
+    padding: 59px 0 48px;
+}
+.author {
+    max-width: 590px;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+.my_name {
+    font-family: 'Lifehack';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 43px;
+}
+.author_title {
+    margin: 135px 0 73px;
+}
+.connect {
+    border: 1px solid #fff;
+}
+.author i {
+    font-size: 15px;
+    display: block;
+    margin-top: 173px;
+}
+.btn {
+    min-width: 218px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 27px;
+    font-weight: 700;
+    padding: 19px 35px;
+    display: inline-block;
+    text-transform: uppercase;
+}

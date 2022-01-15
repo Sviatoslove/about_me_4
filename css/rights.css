@@ -1,0 +1,35 @@
+
+/* ----------------------Rights Footer------------------- */
+
+.footer{
+  padding: 51px 0 37px;
+  background-color: #06319E;
+}
+.rights {
+  max-width: 1067px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.rights_details {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.policy {
+  max-width: 214px;
+  width: 100%;
+  color: #fff;
+  border-bottom: 1px dotted #fff;  
+  padding-bottom: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.fio {
+  max-width: 135px;
+  width: 100%;
+  margin: 0 251px 0 321px;
+  text-align: right;
+}

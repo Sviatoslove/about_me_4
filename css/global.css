@@ -1,0 +1,77 @@
+
+/* -----------Specification------------- */
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+div, p, form, input, button, a, span {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+  outline: none;
+}
+button {
+  padding: 0;
+}
+a, a:hover, a:active {
+  text-decoration: none;
+}
+a, button, input {
+  transition: all 0.5s ease;
+}
+.btn:hover, .policy:hover {
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.8);
+}
+.btn:active, .policy:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h1 {
+  font-size: 27px;
+  line-height: 33px;
+}
+h2 {
+  font-size: 26px;
+  line-height: 31px;
+}
+h3 {
+  font-size: 22px;
+  line-height: 27px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #2D63EB;
+  text-transform: none;
+}

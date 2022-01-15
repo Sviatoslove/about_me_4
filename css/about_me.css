@@ -1,0 +1,132 @@
+
+/* -------------------About me Section---------------- */
+
+.about_me {
+    padding: 130px 0;
+    background-color: #fff;
+}
+.about_me_essence {
+}
+.about_me_title {
+    text-align: center;
+}
+.essence {
+    margin: 136px 0 130px;
+    justify-content: space-between;
+}
+.mission {
+    max-width: 669px;
+    width: 100%;
+}
+.mission p {
+    line-height: 24px;
+}
+.mission_title {
+    position: relative;
+    margin-left: 15px;
+}
+.about:after {
+    position: absolute;
+    background-color: #2D63EB;
+    content: "";
+    height: 2px;
+    top: 40px;
+    width: 114px;
+    left: -14px;
+}
+.mission_essence {
+    margin: 63px 0 30px;
+}
+.mission_essence_more{
+
+}
+.special {
+    color: #2D63EB;
+    position: relative;
+}
+.special:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #2D63EB;
+}
+.history {
+
+}
+.history_title {
+    position: relative;
+    margin-left: 15px;
+}
+.history_details {
+    margin-top: 59px;
+}
+.details_item {
+    display: flex;
+    align-items: center;
+}
+.details_item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.icon {
+    margin-right: 31px;
+}
+.details_list {
+
+}
+.details_item_title {
+
+}
+.details_item_info {
+    color: rgba(47, 56, 59, 0.48);
+    line-height: 18px;
+    margin-top: 8px;
+}
+.because {
+    text-align: center;
+}
+.because_title {
+}
+.because_list {
+    display: flex;
+    justify-content: center;
+    counter-reset: num;
+}
+.because_item {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    margin-top: 153px;
+    position: relative;
+}
+.because_item::before {
+    content: counter(num) '';
+    counter-increment: num;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-140%);
+    border: 1px solid #FFA200;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #FFA200;
+}
+.beautiful::before {
+    color: #fff;
+    background-color: #FFA200;
+}
+.smart {
+    margin-right: 94px;
+}
+.beautiful {
+    margin-right: 47px;
+}
