@@ -23,19 +23,20 @@
 }
 .mission_title {
     position: relative;
-    margin-left: 15px;
+    margin: 0 0 49px 15px;
+
 }
-.about:after {
+.line:after {
     position: absolute;
     background-color: #2D63EB;
     content: "";
     height: 2px;
-    top: 40px;
     width: 114px;
     left: -14px;
+    bottom: 0;
 }
-.mission_essence {
-    margin: 63px 0 30px;
+.mission p:not(:last-child) {
+    margin-bottom: 30px;
 }
 .mission_essence_more{
 }
@@ -56,10 +57,9 @@
 }
 .history_title {
     position: relative;
-    margin-left: 15px;
+    margin: 0 0 45px 15px;
 }
 .history_details {
-    margin-top: 59px;
 }
 .details_item {
     display: flex;
@@ -84,26 +84,21 @@
     text-align: center;
 }
 .because_title {
+    margin-bottom: 52px;
 }
 .because_list {
+    max-width: 695px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    counter-reset: num;
+    justify-content: space-between;
 }
 .because_item {
     font-size: 16px;
     line-height: 19px;
     font-weight: 700;
-    margin-top: 153px;
-    position: relative;
 }
-.because_item::before {
-    content: counter(num) '';
-    counter-increment: num;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-140%);
+.because_item_numb {
     border: 1px solid #FFA200;
     border-radius: 50px;
     width: 75px;
@@ -115,14 +110,14 @@
     line-height: 36px;
     font-weight: 400;
     color: #FFA200;
+    margin: 0 auto 23px;
 }
-.beautiful::before {
+.because_item p {
+    max-width: 206px;
+    width: 100%;
+}
+.because_item_numb:hover {
     color: #fff;
     background-color: #FFA200;
-}
-.smart {
-    margin-right: 94px;
-}
-.beautiful {
-    margin-right: 47px;
+    cursor: pointer;
 }

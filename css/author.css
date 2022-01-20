@@ -3,7 +3,8 @@
 
 .header {
     background-color: #1148D3;
-    padding: 59px 0 48px;
+    padding: 59px 0 237px;
+    position: relative;
 }
 .author {
     max-width: 590px;
@@ -26,18 +27,8 @@
     border: 1px solid #fff;
 }
 .author i {
-    font-size: 15px;
     display: block;
-    margin-top: 173px;
-}
-.btn {
-    min-width: 218px;
-    color: #fff;
-    font-size: 13px;
-    line-height: 16px;
-    border-radius: 27px;
-    font-weight: 700;
-    padding: 19px 35px;
-    display: inline-block;
-    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    bottom: 44px;
 }
